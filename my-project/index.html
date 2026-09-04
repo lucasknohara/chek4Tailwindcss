@@ -8,39 +8,60 @@
   <title>Café Tech</title>
 </head>
 
-<body>
-  <header>
-    <h1 class="text-4xl font-bold pb-20 px-2 tracking-tighter text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-6xl xl:text-8xl">Café Tech</h1>
-  </header>
+<body class="min-h-screen bg-[#590e0e] text-center">
+    <header>
+      <h1 class="text-[#945c25] text-4xl font-bold pb-20 px-2 tracking-tighter text-balance max-lg:font-medium max-sm:px-4 sm:text-5xl lg:text-6xl xl:text-8xl"
+      >Café Tech</h1>
+    </header>
 
   <section>
-    <h2 class="mt-2 text-3xl font-medium tracking-tight text-gray-950 dark:text-black" >Cardápio</h2>
-    <button class="py-2 px-4 rounded-full bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700">
-      Dev.io
-    </button>
+    <h2 class="mt-2 text-7xl font-medium tracking-tight text-[#945c25] pb-16" >Cardápio</h2>
 
-    <div class="flex justify-between w-full pt-20">
-      <div class="w-1/2 bg-blue-200 p-4">
-        <h3 class="font-bold pb-5">Bebidas</h3>
+    <div class=" text-[#4a3b35] flex w-full gap-50 pt-2 px-10">
+      <div class="flex-1 bg-[#887b6e]  py-2 px-10 rounded-full">
+        <h3 class="pt-4 pb-12 text-5xl">Bebidas </h3>
 
-        <ul>
-          <li>Café Expresso<br>R$ 6,00</li>
-          <li>Capucciono<br>R$ 10,00</li>
-          <li>Chocolate Quente<br>R$ 9,00</li>
+        <ul class="max-w-md mx-auto space-y-2 font-mono text-lg">
+          <li class="flex items-end justify-between transition-all duration-600
+            hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
+            <span>Café Expresso </span>
+            <span class="grow border-b border-dotted border-black mx-2 mb-1"></span>
+            <span>R$ 5,00 </span>
+          </li>
+          <li class="flex items-end justify-between pt-16 transition-all duration-600
+            hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
+            <span>Cappuccino </span>
+            <span class="grow border-b border-dotted border-black  mx-2 mb-1"></span>
+            <span>R$ 8,00 </span>
+          </li>
+          <li class="flex items-end justify-between pt-16 transition-all duration-600
+            hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
+            <span>Chocolate Quente </span>
+            <span class="grow border-b border-dotted border-black mx-2 mb-1"></span>
+            <span>R$ 6,00 </span>
+          </li>
         </ul>
       </div>
+      <div class="flex-1 bg-[#887b6e]  py-2 px-10 rounded-full">
+        <h3 class="pt-4 pb-12 text-5xl">Lanches</h3>
 
-      <div class="w-1/2 bg-blue-200 py-2 px-4 rounded-full">
-        <h3 class="font-bold pb-5">Lanches</h3>
-
-        <ul>
-          <li>Pão de Queijo<br>R$ 7,00</li>
-          <li>Croissant<br>R$ 12,00</li>
+        <ul class="max-w-md mx-auto space-y-2 font-mono text-lg">
+          <li class="flex items-end justify-between transition-all duration-600
+            hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
+            <span>Pão de Queijo </span>
+            <span class="grow border-b border-dotted border-black mx-2 mb-1"></span>
+            <span>R$ 7,00 </span>
+          </li>
+          <li class="flex items-end justify-between pt-16 transition-all duration-600
+            hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.7)]">
+            <span>Croissant </span>
+            <span class="grow border-b border-dotted border-black mx-2 mb-1"></span>
+            <span>R$ 12,00 </span>
+          </li>
         </ul>
       </div>
     </div>
   </section>
-
 </body>
 
 </html>
